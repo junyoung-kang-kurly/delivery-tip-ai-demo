@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  ai:
+    openai:
+      api-key: sk-proj-ZrKJqMAnGVhkQ9Luks0oT3BlbkFJjsgMEtpHWjmZVsVvQ8YT
+      chat:
+        options:
+          model: gpt-4o
+  vectorstore:
+    pgvector:
+    index-type: HNSW
+    distance-type: COSINE_DISTANCE
+    dimensions: 1536
