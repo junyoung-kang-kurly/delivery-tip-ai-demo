@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.ai;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.context.annotation.Bean;

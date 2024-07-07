@@ -5,7 +5,7 @@ spring:
     password: postgres
   ai:
     openai:
-      api-key: sk-proj-ZrKJqMAnGVhkQ9Luks0oT3BlbkFJjsgMEtpHWjmZVsVvQ8YT
+#      api-key:
       chat:
         options:
           model: gpt-4o
